@@ -2,14 +2,16 @@
   "name": "twitter-clone-master",
   "version": "1.0.0",
   "main": "backend/server.js",
-  "type":"module",
+  
   
   "scripts": {
     "dev":"nodemon backend/server.js",
-    "start":"node backend/server.js"
+    "start":"node backend/server.js",
+    "build":"npm install && npm install --prefix frontend"
   },
   "keywords": [],
   "author": "",
+  "type":"module",
   "license": "ISC",
   "description": "",
   "dependencies": {
