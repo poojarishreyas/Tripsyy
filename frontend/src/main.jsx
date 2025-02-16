@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";  // Ensure casing matches exactly
+import App from "./app.jsx";  // Ensure casing matches exactly
 
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
