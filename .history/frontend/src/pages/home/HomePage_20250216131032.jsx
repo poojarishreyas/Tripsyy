@@ -3,7 +3,7 @@ import Posts from "../../components/common/Posts";
 import CreatePost from "./CreatePost";
 import axios from "axios";
 import ChatBotSkeleton from "../../components/skeletons/chatbotskeleton";
-
+import bot from "/images/bot.jpg";
 
 const HomePage = () => {
   const [feedType, setFeedType] = useState("forYou");

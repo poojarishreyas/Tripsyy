@@ -138,7 +138,7 @@ const Post = ({ post }) => {
 		console.log("loading...");
   
 		const response = await axios({
-		  url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyC6FEAPiMOElRYQPV30NBxUSsIbCrnw2Ik`,
+		  url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${process.env.VITE_GEMINI_API_KEY}`,
 		  method: "post",
 		  data: {
 			contents: [
